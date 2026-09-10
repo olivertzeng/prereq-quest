@@ -37,36 +37,42 @@ how to keep up with everyone while not ruining(so called "integrating") AI in ne
 
 ### Task A — find the file
 
-Path: prereq-quest/missions/01-linux/files/data/reports/.hidden_report.txt prereq-quest/missions/01-linux/files/.config/nested/.deep/.treasure
+Path: missions/01-linux/files/.config/nested/.deep/.treasure
 
 Command I used: rg -. THE_PENGUIN_WAS_HERE
 
 ### Task B — count the errors
 
-Count:
+Count: 8
 
-Command I used:
+Command I used: nvim => /ERROR
 
 ## Mission 03 — SSH
 
-SSH token:
+SSH token: 'knock knock'(git ignored)
 
-Command I used:
+Command I used: chmod 400 "knock knock";ssh -i "knock knock" flag@217.142.229.247
 
 ## Mission 04 — Debug
 
-What was wrong:
+What was wrong: (defn the-answer
+  "The answer to life, the universe, and everything."
+  []
+  (+ (base-value) 1))
 
-What I changed:
+What I changed: (defn the-answer
+  "The answer to life, the universe, and everything."
+  []
+  (+ (base-value) 2))
 
 ## Mission 05 — Docker
 
-What was wrong:
+What was wrong: COPY app/main.janet /app/main.janet
 
-What I changed:
+What I changed: COPY app/main.janet main.janet
 
 ## Mission 06 — Improve something
 
-What I changed:
+What I changed: .gitignore to ignore my token "knock knock"
 
-Why:
+Why: because mama told me putting ssh credentials on the internet is not safe
